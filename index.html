@@ -5,13 +5,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Inicio</title>
+    <link rel="shortcut icon" href="assets/images/faviconindex.png" type="image/x-icon">
     <link rel="stylesheet" href="assets/styles/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 
 <body>
+    <!-- NavBar -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
         <div class="container-fluid">
             <a class="navbar-brand ms-5" href="#">Angel Rodriguez</a>
@@ -24,36 +27,32 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                 <li class="nav-item mx-3">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active" aria-current="page">Inicio</a>
                 </li>
                 <li class="nav-item mx-3">
                     <a class="nav-link" href="#">Kinal</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link mx-3 me-5" aria-disabled="true">Portafolio</a>
+                    <a class="nav-link mx-3 me-5" aria-disabled="true"
+                        href="assets/pages/portafolio.html">Portafolio</a>
                 </li>
             </ul>
         </div>
     </nav>
 
-    <div class="contenedor">
-        <img src="assets/images/001.jpg" class="img-fluid opac" alt="...">
-        <div class="centrado">
-            <h1>Bienvenido</h1>
-            <div class="linea"></div>
-            <p class="fs-5">Mi mayor gusto recae en los videojuegos, cuya capacidad para ofrecer experiencias
-                inmersivas y narrativas cautivadoras constituye mi principal fuente de disfrute.</p>
-        </div>
+    <div class="fondo-pres d-flex justify-content-center align-items-center">
+        <h1 class="text-white subrayado animate__animated animate__pulse animate__slow">Video juegos</h1>
+
     </div>
 
-    <div data-aos="fade-down" class="container py-5">
+
+
+
+    <div class="container py-5">
         <div class="row">
             <div class="col align-self-center">
-                <h2 class="mb-3">¿Porque me gustan?</h2>
-                <div>
-                    
-                </div>
-                <p style="text-align: justify;">
+                <h2 class="mb-3 text-end">¿Porque me gustan?</h2>
+                <p class="text-end">
                     Los juegos son mi aficion total, ¿sabes? Como cuando entras en ese mundo y todo lo demás se queda
                     atrás. La emoción de enfrentar desafíos, descubrir mundos alucinantes y conectarte con otros
                     jugadores es simplemente épica. No hay nada como la sensación de lograr algo difícil o la
@@ -62,19 +61,19 @@
                 </p>
             </div>
             <div class="col p-5">
-                <img src="assets/images/002.jpg"" class=" img-thumbnail" alt="...">
+                <img src="assets/images/005.jpg" class="img-thumbnail" alt="...">
             </div>
         </div>
     </div>
 
-    <div data-aos="fade-down" class="container py-5">
+    <div class="container my-5">
         <div class="row">
             <div class="col align-self-center px-5">
                 <img src="assets/images/002.jpg"" class=" img-thumbnail" alt="...">
             </div>
             <div class="col p-5">
-                <h2 class="mb-3 text-end">¿Porque le didico tiempo?</h2>
-                <p style="text-align: justify;">
+                <h2 class="mb-3 text-start">¿Porque le didico tiempo?</h2>
+                <p class="mb-3 text-start" style="text-align: justify;">
                     A lo largo del tiempo, he cultivado una conexión significativa con los videojuegos, fortaleciendo
                     amistades y mejorando mis relaciones cercanas. La diversión de jugar con amigos se combina con la
                     creciente inmersión de los juegos actuales, lo que aumenta mi atracción. Mi dedicación a los
@@ -83,7 +82,84 @@
             </div>
         </div>
     </div>
+    <div class="container py-5">
+        <h2 class="text-center">Juegos favoritos</h2>
+        <div class="row row-cols-1 row-cols-md-1 row-cols-lg-3  g-5">
+            <div class="col">
+                <div class="card">
+                    <img src="assets/images/003.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Marvel's Spider-Man 2</h5>
+                        <p class="card-text">Marvel's Spider-Man 2 es un videojuego de acción y aventuras desarrollado
+                            por Insomniac Games​​​ y publicado por Sony Interactive Entertainment.​​ Basado en el
+                            personaje de Marvel Comics</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="assets/images/002.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Fortnite: Battle Royale</h5>
+                        <p class="card-text">Fortnite Battle Royale es un videojuego multiplataforma gratuito
+                            perteneciente al género battle royale desarrollado y publicado por Epic Games.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="assets/images/004.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Call of Duty: Modern Warfare 3</h5>
+                        <p class="card-text">Es un videojuego de disparos en primera
+                            persona desarrollado por Infinity Ward y Sledgehammer Games, con el trabajo adicional de
+                            Raven Software, y distribuido por Activision.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="assets/images/006.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cyberpunk 2077</h5>
+                        <p class="card-text">Es un videojuego perteneciente al género rol de acción y
+                            disparos en primera persona desarrollado y publicado por CD Projekt, que se lanzó para
+                            Microsoft Windows, PlayStation 4 y Xbox One</p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col">
+                <div class="card">
+                    <img src="assets/images/007.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mortal Kombat 1</h5>
+                        <p class="card-text">Es un videojuego de lucha desarrollado por NetherRealm
+                            Studios y publicado por Warner Bros. Games. Es la duodécima entrega principal de la serie
+                            Mortal Kombat.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="assets/images/008.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gran Turismo 7</h5>
+                        <p class="card-text">Es un videojuego de simulación de carreras de 2022
+                            desarrollado por Polyphony Digital y publicado por Sony Interactive Entertainment. El juego
+                            es la octava entrega principal de la serie Gran Turismo.​</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="fondo text-light text-center py-3">
+        <div class="container">
+            <p>&copy; 2024 Angel Kaled Rodriguez Soc. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 
     <script src="assets/scripts/index.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

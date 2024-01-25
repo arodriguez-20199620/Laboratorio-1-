@@ -1,26 +1,39 @@
 .fondo {
-    background-color: #01449B;
+    background-image: url(/assets/images/Playstation.gif);
+    transition: opacity 0.5s ease;
+    opacity: 1;
 }
 
-.navbar{
-    transition: background-color 0.3s ease;
+nav {
+    height: 80px;
 }
 
-.contenedor{
+.fondo-pres{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/images/001.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.contenedor {
     position: relative;
     display: inline-block;
     text-align: center;
 }
- 
-.linea {
-    border-top: 3px solid  #01449B;
-    height: 2px;
-    max-width: 350px;
-    padding: 0;
-    margin: 20px auto 0 auto;
-  }
 
-.centrado{
+.subrayado {
+    border-bottom: 5px solid #01449B; /* Grosor y color del subrayado */
+    padding-bottom: 5px; /* Espacio entre el texto y el subrayado (ajustable) */
+}
+
+.barra-divisora {
+    height: 1px; /* Grosor de la barra */
+    background-color: #01449B; /* Color de la barra */
+    margin: 20px 0; /* Margen superior e inferior */
+}
+
+.centrado {
     color: white;
     position: absolute;
     top: 50%;
@@ -28,6 +41,6 @@
     transform: translate(-50%, -50%);
 }
 
-.opac{
+.opac {
     filter: brightness(50%);
 }
