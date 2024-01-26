@@ -16,6 +16,10 @@ nav {
     height: 100vh;
 }
 
+.opacar{
+    filter: brightness(0.4);   
+}
+
 .contenedor {
     position: relative;
     display: inline-block;
