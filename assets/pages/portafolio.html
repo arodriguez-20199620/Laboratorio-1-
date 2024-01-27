@@ -1,82 +1,179 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Colegio Ejemplo</title>
-    <!-- Incluir los archivos de Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <style>
-        body {
-            padding-top: 56px;
-        }
-        section {
-            padding: 40px 0;
-        }
-        footer {
-            padding: 20px 0;
-        }
-    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Angel Rodriguez</title>
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet"
+        type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/styles/portafolio.css">
 </head>
+
 <body>
 
-    <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-        <a class="navbar-brand" href="#">Colegio Ejemplo</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#mision">Misión</a>
+    <nav id="navbar" class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
+        <div class="container-fluid d-flex justify-content-around">
+            <h1 class="logo" href="#">Portafolio</h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#portafolio">PORTAFOLIO</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#vision">Visión</a>
+                    <a class="nav-link" href="#sobre-mi">SOBRE MI</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#grados">Grados Ofrecidos</a>
+                    <a class="nav-link" aria-current="page" href="#habilidades">HABILIDADES</a>
                 </li>
-                <!-- Agrega más elementos de menú según sea necesario -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACTO</a>
+                </li>
             </ul>
         </div>
     </nav>
 
-    <!-- Contenido principal -->
-    <div class="container my-4">
-        <section id="mision">
-            <h2 class="text-primary">Misión</h2>
-            <p>Nuestra misión es proporcionar una educación integral y de calidad que inspire a los estudiantes a alcanzar su máximo potencial académico, personal y social. Fomentamos el desarrollo de habilidades críticas, el pensamiento creativo y el respeto por los demás, preparando a nuestros estudiantes para enfrentar los desafíos del mundo con confianza y responsabilidad.</p>
-        </section>
+    <header class="bg-green">
+        <div class="container d-flex align-items-center flex-column">
 
-        <section id="vision">
-            <h2 class="text-primary">Visión</h2>
-            <p>Buscamos ser reconocidos como un referente en la excelencia educativa, donde los estudiantes son líderes proactivos, respetuosos y comprometidos con el aprendizaje continuo. Nos esforzamos por crear un entorno que promueva la diversidad, la colaboración y la innovación, preparando a los estudiantes para contribuir positivamente a la sociedad global.</p>
-        </section>
+            <img class="py-5 rounded-circle" width="250px" src="/assets/images/foto.jpg" alt="..." />
+            <!-- Masthead Heading-->
+            <h1 class="title-light"> Soy <span class="title-green">Angel</span> Rodriguez</h1>
 
-        <section id="grados">
-            <h2 class="text-primary">Grados Ofrecidos</h2>
-            <ul>
-                <li>Preescolar</li>
-                <li>Primaria</li>
-                <li>Secundaria</li>
-                <li>Bachillerato</li>
-            </ul>
-        </section>
-        
-        <!-- Agrega más secciones según sea necesario -->
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <p class="fs-5 text-white py-4">Coder - Web Designer - Developer</p>
+        </div>
+    </header>
 
-    </div>
 
-    <!-- Pie de página -->
-    <footer class="bg-dark text-white text-center">
-        <p>&copy; 2024 Colegio Ejemplo. Todos los derechos reservados.</p>
-    </footer>
+    <section id="portafolio">
+        <div class="container py-5">
+            <h1 class="title text-center">PORTAFOLIO</h1>
+            <div class="divider-custom divider">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
 
-    <!-- Incluir el archivo de JavaScript de Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card">
+                        <img src="/assets/images/portafolio-1.jpg" class="card-img-top" alt="...">
 
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="/assets/images/portafolio-2.png" class="card-img" alt="...">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark">
+                        <img src="/assets/images/portafolio-3.jpg" class="card-img" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre-mi" class="bg-green">
+        <div class="container  py-5">
+            <h1 class="title-light text-center"> Sobre mi</h1>
+            <div class="divider-custom divider-light">
+                <div class="divider-custom-line"></div>
+                <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                <div class="divider-custom-line"></div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="col col-4">
+                    <p class="text-white">Soy Angel Rodriguez, nací el 31 de marzo de 2006 en Ciudad de
+                        Guatemala,
+                        Guatemala, en el seno de una familia trabajadora y honrada. Desde una edad temprana, demostré un
+                        interés
+                        destacado por el fascinante mundo de la tecnología, especialmente en el área de desarrollo. Mi
+                        curiosidad innata y mi deseo de aprender rápidamente se hicieron evidentes, convirtiéndome en un
+                        apasionado autodidacta desde mis primeros años.</p>
+                </div>
+                <div class="col col-4">
+                    <p class="text-white">A medida que crecí, mi habilidad para comprender y aplicar conceptos
+                        tecnológicos avanzados se volvió cada vez más evidente. Mi hogar se convirtió en mi laboratorio
+                        personal, donde experimentaba con diferentes tecnologías y exploraba diversas disciplinas de
+                        desarrollo. Este ambiente propicio me permitió cultivar mis habilidades y adquirir un
+                        conocimiento profundo en áreas como programación, diseño de software y nuevas tendencias
+                        tecnológicas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades">
+        <div class="container  py-5">
+            <h1 class="title text-center">Habilidades</h1>
+            <p class="text-center">Las habiliades que tengo son en las siguientes tecnologias</p>
+            <div class="d-flex justify-content-center">
+                <img src="/assets/images/html.png" class="icon" alt="">
+                <img src="/assets/images/css.png" class="icon" alt="">
+                <img src="/assets/images/js.png" class="icon" alt="">
+                <img src="/assets/images/react.png" class="icon" alt="">
+                <img src="/assets/images/java.png" class="icon" alt="">
+                <img src="/assets/images/wordpress.png" class="icon" alt="">
+                <img src="/assets/images/bootstrap.png" class="icon" alt="">
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto ">
+        <div class="container py-5">
+            <h1 class="title">CONTACTO</h1>
+            <hr>
+            <div class="container">
+                <div class="row mt-5 gx-5">
+                    <div class="col">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electronico</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="telefono" class="form-label">Número de Teléfono</label>
+                            <input type="tel" class="form-control" id="telefono">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-primary"> Enviar </button>
+                    </div>
+                    <div class="col">
+                        <img src="" class=" " height="500">
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <script src="/assets/scripts/portafolio.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
